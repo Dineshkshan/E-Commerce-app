@@ -1,0 +1,62 @@
+.heading
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-color: black;
+    height: 90px;
+}
+#move
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#Men
+{
+    margin-left: 500px;
+}
+.form-group
+{
+    padding-top: 70px;
+}
+.men,.Ladies,.kids
+{
+    /* background-color: blue; */
+    margin-top: 100px;
+    padding-left: 500px;
+}
+/* #defaultCheck1,#defaultCheck2,#defaultCheck3,#defaultCheck4,#defaultCheck5,#defaultCheck6,#defaultCheck7,#defaultCheck8,#defaultCheck9,#defaultCheck10,#defaultCheck11,#defaultCheck12
+{
+    margin-left: 40px;
+} */
+
+#order
+{
+    margin-top: 70px;
+    margin-left: 1200px;
+}
+#logout
+{
+    color: red;
+    font-size: 20px;
+    width: 0px;
+    position:relative;
+    margin-left: 1400px;
+}
+#logout:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#image
+{
+    position: relative;
+    right:130px;
+    width:50px;
+    height: 30px;
+}
+#image:hover
+{
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+$(document).ready(function()
+{
+    $('.Ladies').hide();
+    $('.kids').hide();
+    $('.men').hide();
+    $("#Men").click(function()
+    {
+        $('.Ladies').hide();
+        $('.kids').hide();
+        $('.men').show().css('visibility','visible');
+    });
+    $("#Ladies").click(function()
+    {
+        $('.men').hide();
+        $('.kids').hide();
+        $('.Ladies').show()
+    });
+    $("#Kid").click(function()
+    {
+        $('.Ladies').hide();
+        $('.men').hide();
+        $('.kids').show();
+    });
+    $("#image").click(function()
+    {
+        window.location.href="/cart";
+    });
+    $('#order').click(function(){
+    	if($('#defaultCheck1').prop('checked')==true||$('#defaultCheck2').prop('checked')==true||$('#defaultCheck3').prop('checked')==true||$('#defaultCheck4').prop('checked')==true||
+    			$('#defaultCheck5').prop('checked')==true||$('#defaultCheck6').prop('checked')==true||$('#defaultCheck7').prop('checked')==true||$('#defaultCheck8').prop('checked')==true
+    			||$('#defaultCheck9').prop('checked')==true||$('#defaultCheck10').prop('checked')==true||$('#defaultCheck11').prop('checked')==true||$('#defaultCheck12').prop('checked')==true)
+    		{
+    	window.location.href="/placeorder";
+    		}
+    	else
+    		{
+    		alert("You have not selected any order");
+    		}
+    });
+});

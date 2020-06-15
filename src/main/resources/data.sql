@@ -1,0 +1,1 @@
+insert into Customer values('Dinesh','1234','1234',9876543210);
